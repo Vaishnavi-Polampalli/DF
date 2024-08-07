@@ -12,7 +12,8 @@ public class ProductService {
     List<Product> products= Arrays.asList(
             new Product(1, "Eyeshades", 30),
             new Product(2, "Compact", 50),
-            new Product(3,"Concealer",40));
+            new Product(3,"Concealer",40),
+            new Product(4,"Foundation",60));
 
     public List<Product> getAll(){
         return products;
